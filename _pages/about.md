@@ -1,6 +1,6 @@
 ---
 layout: about
-title: about
+title: About
 permalink: /
 subtitle: <a href='mailto:yan_rh1999@outlook.com/'>yan_rh1999@outlook.com</a>.
 
