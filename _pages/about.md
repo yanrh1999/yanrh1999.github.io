@@ -10,7 +10,7 @@ profile:
   image_circular: false # crops the image to make it circular
   address: >
     <p>TA</p>
-    <p>Guangzhou Xinhua University</p>
+    <p><span style="white-space: nowrap;">Guangzhou Xinhua University</span></p>
     <p>Guangzhou, China</p>
 
 news: false  # includes a list of news items
