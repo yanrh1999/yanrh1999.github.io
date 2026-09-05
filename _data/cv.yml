@@ -9,17 +9,17 @@
       value: yan_rh1999@outlook.com
     - name: Website
       value: yanrh1999.github.io
-    - name: Research Tools
-      value: Python, PyTorch, Git, and AI-assisted development tools (including Codex)
 
 - title: Research Profile
   type: nested_list
   contents:
-    - title: Machine Learning and Deep Learning
+    - title: Applied AI
+      items:
+        - Graph and deep learning for interdisciplinary problems
     - title: Graph Learning
       items:
         - Graph neural networks and heterogeneous graph learning
-        - Spectral graph neural networks and theoretical properties
+        - Spectral graph neural networks and their theoretical properties
         - Robustness under structural perturbations
 
 - title: Education
