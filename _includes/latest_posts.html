@@ -14,10 +14,10 @@
                   <th scope="row">{{ item.date | date: "%b %-d, %Y" }}</th>
                   <td>
                     {% if item.publication_key %}
-                      <span class="post-kind">[Publication:]</span>
+                      <span class="post-kind">[Publication]</span>
                       <a class="news-title" href="{{ '/publications/' | relative_url }}#{{ item.publication_key }}">{{ item.title }}</a>
                     {% else %}
-                      <span class="post-kind">[Blog:]</span>
+                      <span class="post-kind">[Blog]</span>
                       <a class="news-title" href="{{ item.url | relative_url }}">{{ item.title }}</a>
                     {% endif %}
                   </td>

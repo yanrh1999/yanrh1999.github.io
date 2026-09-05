@@ -9,8 +9,8 @@
       value: yan_rh1999@outlook.com
     - name: Website
       value: yanrh1999.github.io
-    - name: Languages
-      value: Chinese, English
+    - name: Research Tools
+      value: Python, PyTorch, Git, and AI-assisted development tools (including Codex)
 
 - title: Research Profile
   type: nested_list
@@ -58,15 +58,3 @@
     - title: An End-to-End Dense Connected Heterogeneous Graph Convolutional Neural Network
       institution: International Conference on Neural Information Processing
       year: 2023
-
-- title: Technical Skills
-  type: nested_list
-  contents:
-    - title: Research Computing
-      items:
-        - Python and PyTorch
-        - Machine learning, deep learning, and statistics
-    - title: Research Areas
-      items:
-        - Graph neural networks
-        - Robust graph learning
