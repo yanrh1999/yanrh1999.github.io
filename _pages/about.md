@@ -19,8 +19,8 @@ selected_papers: false # includes a list of papers marked as "selected={true}"
 social: true  # includes social icons at the bottom of the page
 ---
 
-I am a machine learning researcher interested in graph learning, graph neural networks, and robustness.
+I am interested in graph learning, graph neural networks, and robustness. My current work focuses on spectral graph neural networks, particularly their theoretical properties and robustness to structural perturbations.
 
-My current work studies spectral graph neural networks, their theoretical properties, and their robustness under structural perturbations.
+Looking forward, I am interested in exploring how graph learning and related machine learning methods can contribute to scientific and interdisciplinary problems.
 
-I am actively exploring ideas and collaborations. Please feel free to contact me about research, code, or collaboration.
+I am currently seeking PhD opportunities and am open to discussing research ideas, code, and potential collaborations.

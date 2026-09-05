@@ -10,17 +10,13 @@
     - name: Website
       value: yanrh1999.github.io
 
-- title: Research Profile
+- title: Research Interests
   type: nested_list
   contents:
-    - title: Applied AI
-      items:
-        - Graph and deep learning for interdisciplinary problems
-    - title: Graph Learning
-      items:
-        - Graph neural networks and heterogeneous graph learning
-        - Spectral graph neural networks and their theoretical properties
-        - Robustness under structural perturbations
+    - title: Graph learning and graph neural networks
+    - title: Spectral graph neural networks and their theoretical properties
+    - title: Robustness to structural perturbations in graph learning
+    - title: Graph learning for scientific and interdisciplinary applications
 
 - title: Education
   type: time_table
