@@ -578,12 +578,10 @@ footer.sticky-bottom {
       .preview {
         width: 100%;
         min-width: 96px;
-        max-width: 150px;
+        max-width: 132px;
         aspect-ratio: 1;
         object-fit: contain;
-        padding: 0.35rem;
-        background: var(--global-card-bg-color);
-        border: 1px solid var(--global-divider-color);
+        padding: 0;
       }
 
       .abbr {
@@ -723,30 +721,34 @@ footer.sticky-bottom {
   }
 }
 
-.publication-feed th {
+.post-feed th {
   color: var(--global-text-color-light);
   font-weight: 500;
   white-space: nowrap;
 }
 
-.publication-update {
-  max-width: 780px;
-  margin: 0 auto;
+.post-kind {
+  color: var(--global-text-color-light);
+  font-size: 0.85rem;
+  font-weight: 500;
+  margin-right: 0.35rem;
 }
 
-.publication-label {
-  color: var(--global-theme-color);
-  font-size: 0.8rem;
-  font-weight: 700;
-  letter-spacing: 0.12em;
-  margin-bottom: 0.4rem;
-  text-transform: uppercase;
+.publications ol.bibliography li [id]:target {
+  animation: publication-focus 1.8s ease-out;
+  border-radius: 0.5rem;
+  scroll-margin-top: 5rem;
 }
 
-.publication-return {
-  border-top: 1px solid var(--global-divider-color);
-  margin-top: 2rem;
-  padding-top: 1rem;
+@keyframes publication-focus {
+  0%, 60% {
+    background-color: rgba(0, 118, 223, 0.16);
+    box-shadow: 0 0 0 0.45rem rgba(0, 118, 223, 0.08);
+  }
+  100% {
+    background-color: transparent;
+    box-shadow: none;
+  }
 }
 
 // Rouge Color Customization

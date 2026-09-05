@@ -169,18 +169,13 @@ collections:
   projects:
     output: true
     permalink: /projects/:path/
-  publication_updates:
-    defaults:
-      layout: publication_update
-    output: true
-    permalink: /publications/updates/:path/
 
 news:
   enabled: false
   scrollable: true # adds a vertical scroll bar if there are more than 3 news items
   limit: 5 # leave blank to include all the news in the `_news` folder
 
-latest_publications:
+latest_posts:
   enabled: true
   limit: 3
 
@@ -294,9 +289,7 @@ scholar:
 
   query: "@*"
 
-badges: # Display different badges for your publications
-  altmetric_badge: true # Altmetric badge (https://www.altmetric.com/products/altmetric-badges/)
-  dimensions_badge: true # Dimensions badge (https://badge.dimensions.ai/)
+badges: false
 
 # Filter out certain bibtex entry keywords used internally from the bib output
 filtered_bibtex_keywords: [abbr, abstract, arxiv, bibtex_show, html, pdf, selected, supp, blog, code, poster, slides, website, preview, altmetric]

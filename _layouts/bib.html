@@ -125,12 +125,13 @@
           {%- capture entryyear -%}{{ " " }}{{entry.year}}{%- endcapture -%}
         {%- endif -%}
         {% assign entrytype_text = entrytype | strip_html | strip %}
-        {%- capture periodical -%}{{ entrytype }}{%- if entrytype_text != "" and entryyear != "" -%}, {%- endif -%}{{ entrymonth }}{{ entryyear }}{%- endcapture -%}
+        {%- capture periodical -%}
+          {%- if entrytype_text != "" -%}{{ entrytype }}{%- endif -%}
+          {%- if entry.note -%}{%- if entrytype_text != "" -%} · {% endif -%}<em>{{ entry.note | strip }}</em>{%- endif -%}
+          {%- if entryyear != "" -%}{%- if entrytype_text != "" or entry.note -%}, {% endif -%}{{ entryyear }}{%- endif -%}
+        {%- endcapture -%}
         <div class="periodical">
           {{ periodical | strip }}
-        </div>
-        <div class="periodical">
-          {% if entry.note %}<em>{{ entry.note | strip }}</em>{% endif %}
         </div>
 
           <!-- Links/Buttons -->

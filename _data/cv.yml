@@ -3,10 +3,24 @@
   contents:
     - name: Full Name
       value: Ranhui Yan
-    - name: Date of Birth
-      value: 9th November 1999
+    - name: Location
+      value: Guangzhou, China
+    - name: Email
+      value: yan_rh1999@outlook.com
+    - name: Website
+      value: yanrh1999.github.io
     - name: Languages
       value: Chinese, English
+
+- title: Research Profile
+  type: nested_list
+  contents:
+    - title: Machine Learning and Deep Learning
+    - title: Graph Learning
+      items:
+        - Graph neural networks and heterogeneous graph learning
+        - Spectral graph neural networks and theoretical properties
+        - Robustness under structural perturbations
 
 - title: Education
   type: time_table
@@ -24,16 +38,35 @@
   type: time_table
   contents:
     - title: Teaching Assistant
-      institution: School of Computer and Artificial Intelligence, Guangzhou Xinhua University
-      year: 2024 - present
+      institution: School of Computer and Artificial Intelligence, Guangzhou Xinhua University, Guangzhou, China
+      year: 2024 - Present
       description:
-        - Taught and supported courses including Calculus, Linear Algebra, Statistics, and Machine Learning
+        - Teach and support courses including Calculus, Linear Algebra, Statistics, and Machine Learning.
 
-- title: Academic Interests
+- title: Selected Publications
+  type: time_table
+  contents:
+    - title: Convex--Concave Quadratic Spectral Filtering for Graph Neural Networks
+      institution: Accepted at ECML 2026; arXiv:2606.24956
+      year: 2026
+    - title: Virtual Nodes based Heterogeneous Graph Convolutional Neural Network for Efficient Long-Range Information Aggregation
+      institution: International Conference on Artificial Neural Networks (ICANN)
+      year: 2024
+    - title: Noise Perturbation Based Graph Contrastive Learning via Flexible Filters for Node Classification
+      institution: International Joint Conference on Neural Networks (IJCNN)
+      year: 2024
+    - title: An End-to-End Dense Connected Heterogeneous Graph Convolutional Neural Network
+      institution: International Conference on Neural Information Processing
+      year: 2023
+
+- title: Technical Skills
   type: nested_list
   contents:
-    - title: ML&DL.
-    - title: Graph Neural Networks.
-      items: 
-        - Robustness of GNNs.
-
+    - title: Research Computing
+      items:
+        - Python and PyTorch
+        - Machine learning, deep learning, and statistics
+    - title: Research Areas
+      items:
+        - Graph neural networks
+        - Robust graph learning

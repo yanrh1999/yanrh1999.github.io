@@ -46,10 +46,10 @@ layout: default
             {%- include news.html %}
           {%- endif %}
 
-          <!-- Latest publications -->
-          {% if page.latest_publications -%}
-            <h2><a href="{{ '/publications/' | relative_url }}" style="color: inherit;">latest publications</a></h2>
-            {%- include latest_publications.html %}
+          <!-- Latest posts -->
+          {% if page.latest_posts -%}
+            <h2><a href="{{ '/blog/' | relative_url }}" style="color: inherit;">latest posts</a></h2>
+            {%- include latest_posts.html %}
           {%- endif %}
 
           <!-- Selected papers -->
