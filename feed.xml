@@ -1,2 +1,11 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en"><generator uri="https://jekyllrb.com/" version="4.4.1">Jekyll</generator><link href="https://yanrh1999.github.io/feed.xml" rel="self" type="application/atom+xml" /><link href="https://yanrh1999.github.io/" rel="alternate" type="text/html" hreflang="en" /><updated>2026-09-05T03:20:11+00:00</updated><id>https://yanrh1999.github.io/feed.xml</id><title type="html">Ranhui Yan</title><subtitle>Personal academic website of Ranhui Yan.
-</subtitle></feed>
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en"><generator uri="https://jekyllrb.com/" version="4.4.1">Jekyll</generator><link href="https://yanrh1999.github.io/feed.xml" rel="self" type="application/atom+xml" /><link href="https://yanrh1999.github.io/" rel="alternate" type="text/html" hreflang="en" /><updated>2026-09-05T03:20:32+00:00</updated><id>https://yanrh1999.github.io/feed.xml</id><title type="html">Ranhui Yan</title><subtitle>Personal academic website of Ranhui Yan.
+</subtitle><entry><title type="html">Paper accepted at ECML 2026</title><link href="https://yanrh1999.github.io/blog/2026/ecml-2026/" rel="alternate" type="text/html" title="Paper accepted at ECML 2026" /><published>2026-09-05T01:00:00+00:00</published><updated>2026-09-05T01:00:00+00:00</updated><id>https://yanrh1999.github.io/blog/2026/ecml-2026</id><content type="html" xml:base="https://yanrh1999.github.io/blog/2026/ecml-2026/"><![CDATA[<p>I am pleased to share that our paper, <strong>“Convex–Concave Quadratic Spectral Filtering for Graph Neural Networks,”</strong> has been accepted at <strong>ECML 2026</strong>.</p>
+
+<p>The work introduces a graph neural network based on second-order spectral filters with learned convex–concave curvature control and node-adaptive gated fusion.</p>
+
+<ul>
+  <li>Paper: <a href="https://arxiv.org/abs/2606.24956">arXiv:2606.24956</a></li>
+  <li>Code: <a href="https://github.com/yanrh1999/DCQ-GNN">DCQ-GNN</a></li>
+</ul>
+
+<p>Co-authors: Jia Cai, Mengzhu Chen, and Haodong Yang.</p>]]></content><author><name></name></author><category term="publications" /><category term="machine learning" /><category term="graph neural networks" /><category term="publications" /><summary type="html"><![CDATA[Convex--Concave Quadratic Spectral Filtering for Graph Neural Networks]]></summary></entry></feed>
