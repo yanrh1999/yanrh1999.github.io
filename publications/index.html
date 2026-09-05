@@ -12,8 +12,46 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <title>Publications | Ranhui Yan</title>
     <meta name="author" content="Ranhui  Yan">
-    <meta name="description" content="Personal academic website of Ranhui Yan.
+    <meta name="description" content="Ranhui Yan is a machine learning researcher working on graph learning, graph neural networks, and robustness.
 ">
+    <meta name="keywords" content="machine learning, graph learning, graph neural networks, robustness, spectral graph neural networks">
+
+    <!-- OpenGraph -->
+    <meta property="og:site_name" content="Ranhui Yan">
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="Ranhui Yan | Publications">
+    <meta property="og:url" content="https://yanrh1999.github.io/publications/">
+    <meta property="og:description" content="Ranhui Yan is a machine learning researcher working on graph learning, graph neural networks, and robustness.
+">
+    <meta property="og:image" content="https://yanrh1999.github.io/assets/img/portrait.jpg">
+    <meta property="og:locale" content="en">
+
+    <!-- Twitter card -->
+    <meta name="twitter:card" content="summary">
+    <meta name="twitter:title" content="Publications">
+    <meta name="twitter:description" content="Ranhui Yan is a machine learning researcher working on graph learning, graph neural networks, and robustness.
+">
+    <meta name="twitter:image" content="https://yanrh1999.github.io/assets/img/portrait.jpg">
+    
+
+    <!-- Schema.org -->
+    <script type="application/ld+json">
+      {
+        "author":
+        {
+          "@type": "Person",
+          "name": "Ranhui  Yan"
+        },
+        "url": "https://yanrh1999.github.io/publications/",
+        "@type": "WebSite",
+        "description": "Ranhui Yan is a machine learning researcher working on graph learning, graph neural networks, and robustness.
+",
+        "headline": "Publications",
+        "sameAs": ["https://orcid.org/0009-0003-2977-0770", "https://scholar.google.com/citations?user=WI5SWPYAAAAJ", "https://github.com/yanrh1999"],
+        "name": "Ranhui  Yan",
+        "@context": "https://schema.org"
+      }
+    </script>
 
 
     <!-- Bootstrap & MDB -->
@@ -30,7 +68,7 @@
 
     <!-- Styles -->
     
-    <link rel="shortcut icon" href="data:image/svg+xml,&lt;svg%20xmlns=%22http://www.w3.org/2000/svg%22%20viewBox=%220%200%20100%20100%22&gt;&lt;text%20y=%22.9em%22%20font-size=%2290%22&gt;%F0%9F%98%A4&lt;/text&gt;&lt;/svg&gt;">
+    <link rel="shortcut icon" href="data:image/svg+xml,&lt;svg%20xmlns=%22http://www.w3.org/2000/svg%22%20viewBox=%220%200%20100%20100%22&gt;&lt;text%20y=%22.9em%22%20font-size=%2290%22&gt;%F0%9F%8E%93&lt;/text&gt;&lt;/svg&gt;">
     
     <link rel="stylesheet" href="/assets/css/main.css">
     <link rel="canonical" href="https://yanrh1999.github.io/publications/">
@@ -46,7 +84,7 @@
   </head>
 
   <!-- Body -->
-  <body class="fixed-top-nav ">
+  <body class="fixed-top-nav sticky-bottom-footer">
 
     <!-- Header -->
     <header>
@@ -73,7 +111,7 @@
               
               <!-- Blog -->
               <li class="nav-item ">
-                <a class="nav-link" href="/blog/">Blogs</a>
+                <a class="nav-link" href="/blog/">Blog</a>
               </li>
 
               <!-- Other pages -->
@@ -122,7 +160,23 @@
 <li>
 <!-- _layouts/bib.html -->
       <div class="row">
-        <div class="col-sm-2 abbr"></div>
+        <div class="col-sm-2 preview">
+<figure>
+
+  <picture>
+    
+    <source class="responsive-img-srcset" media="(max-width: 480px)" srcset="/assets/img/publication_preview/dcq-gnn-thumbnail-480.webp"></source>
+    <source class="responsive-img-srcset" media="(max-width: 800px)" srcset="/assets/img/publication_preview/dcq-gnn-thumbnail-800.webp"></source>
+    <source class="responsive-img-srcset" media="(max-width: 1400px)" srcset="/assets/img/publication_preview/dcq-gnn-thumbnail-1400.webp"></source>
+    
+
+    <!-- Fallback to the original file -->
+    <img src="/assets/img/publication_preview/dcq-gnn-thumbnail.png" class="preview z-depth-1 rounded" width="auto" height="auto" alt="dcq-gnn-thumbnail.png" onerror="this.onerror=null; $('.responsive-img-srcset').remove();">
+
+  </picture>
+
+</figure>
+</div>
 
         <!-- Entry bib key -->
         <div id="yan2026convexconcavequadraticspectralfiltering" class="col-sm-8">
@@ -132,20 +186,7 @@
         <div class="author">
         
 
-        Ranhui Yan, Jia Cai, Mengzhu Chen, and
-          <span class="more-authors" title="click to view 1 more author" onclick="
-                var element = $(this);
-                element.attr('title', '');
-                var more_authors_text = element.text() == '1 more author' ? 'Haodong Yang' : '1 more author';
-                var cursorPosition = 0;
-                var textAdder = setInterval(function(){
-                  element.text(more_authors_text.substring(0, cursorPosition + 1));
-                  if (++cursorPosition == more_authors_text.length){
-                    clearInterval(textAdder);
-                  }
-              }, '10');
-              ">1 more author</span>
-</div>
+        Ranhui Yan, Jia Cai, Mengzhu Chen, and Haodong Yang</div>
 
         <!-- Journal/Book title and date -->
         
@@ -154,11 +195,12 @@
           2026
         </div>
         <div class="periodical">
-          Accepted at ECML 2026
+          <em>Accepted at ECML 2026</em>
         </div>
 
           <!-- Links/Buttons -->
           <div class="links">
+            <a href="http://arxiv.org/abs/2606.24956" class="btn btn-sm z-depth-0" role="button" rel="external nofollow noopener" target="_blank">arXiv</a>
             <a href="https://github.com/yanrh1999/DCQ-GNN/" class="btn btn-sm z-depth-0" role="button" rel="external nofollow noopener" target="_blank">Code</a>
           </div>
           
@@ -174,7 +216,23 @@
 <li>
 <!-- _layouts/bib.html -->
       <div class="row">
-        <div class="col-sm-2 abbr"></div>
+        <div class="col-sm-2 preview">
+<figure>
+
+  <picture>
+    
+    <source class="responsive-img-srcset" media="(max-width: 480px)" srcset="/assets/img/publication_preview/vn-hgcn-thumbnail-480.webp"></source>
+    <source class="responsive-img-srcset" media="(max-width: 800px)" srcset="/assets/img/publication_preview/vn-hgcn-thumbnail-800.webp"></source>
+    <source class="responsive-img-srcset" media="(max-width: 1400px)" srcset="/assets/img/publication_preview/vn-hgcn-thumbnail-1400.webp"></source>
+    
+
+    <!-- Fallback to the original file -->
+    <img src="/assets/img/publication_preview/vn-hgcn-thumbnail.png" class="preview z-depth-1 rounded" width="auto" height="auto" alt="vn-hgcn-thumbnail.png" onerror="this.onerror=null; $('.responsive-img-srcset').remove();">
+
+  </picture>
+
+</figure>
+</div>
 
         <!-- Entry bib key -->
         <div id="yan2024virtual" class="col-sm-8">
@@ -198,13 +256,13 @@
 
           <!-- Links/Buttons -->
           <div class="links">
+            <a href="https://doi.org/10.1007/978-3-031-72344-5_15" class="btn btn-sm z-depth-0" role="button" rel="external nofollow noopener" target="_blank">DOI</a>
             <a href="https://github.com/yanrh1999/VN-HGCN" class="btn btn-sm z-depth-0" role="button" rel="external nofollow noopener" target="_blank">Code</a>
-            <a href="https://doi.org/10.1007/978-3-031-72344-5_15" class="btn btn-sm z-depth-0" role="button" rel="external nofollow noopener" target="_blank">Website</a>
           </div>
           
           <div class="badges">
-            <span class="altmetric-embed" data-hide-no-mentions="true" data-hide-less-than="15" data-badge-type="2" data-badge-popover="right"></span>
-              <span class="__dimensions_badge_embed__" data-pmid="" data-hide-zero-citations="true" data-style="small_rectangle" data-legend="hover-right" style="margin-bottom: 3px;"></span>
+            <span class="altmetric-embed" data-hide-no-mentions="true" data-hide-less-than="15" data-badge-type="2" data-badge-popover="right" data-doi="10.1007/978-3-031-72344-5_15"></span>
+              <span class="__dimensions_badge_embed__" data-doi="10.1007/978-3-031-72344-5_15" data-hide-zero-citations="true" data-style="small_rectangle" data-legend="hover-right" style="margin-bottom: 3px;"></span>
           </div>
 
           
@@ -214,7 +272,23 @@
 <li>
 <!-- _layouts/bib.html -->
       <div class="row">
-        <div class="col-sm-2 abbr"></div>
+        <div class="col-sm-2 preview">
+<figure>
+
+  <picture>
+    
+    <source class="responsive-img-srcset" media="(max-width: 480px)" srcset="/assets/img/publication_preview/noise-contrastive-thumbnail-480.webp"></source>
+    <source class="responsive-img-srcset" media="(max-width: 800px)" srcset="/assets/img/publication_preview/noise-contrastive-thumbnail-800.webp"></source>
+    <source class="responsive-img-srcset" media="(max-width: 1400px)" srcset="/assets/img/publication_preview/noise-contrastive-thumbnail-1400.webp"></source>
+    
+
+    <!-- Fallback to the original file -->
+    <img src="/assets/img/publication_preview/noise-contrastive-thumbnail.png" class="preview z-depth-1 rounded" width="auto" height="auto" alt="noise-contrastive-thumbnail.png" onerror="this.onerror=null; $('.responsive-img-srcset').remove();">
+
+  </picture>
+
+</figure>
+</div>
 
         <!-- Entry bib key -->
         <div id="xiong2024noise" class="col-sm-8">
@@ -224,20 +298,7 @@
         <div class="author">
         
 
-        Zhilong Xiong, Jia Cai, Ranhui Yan, and
-          <span class="more-authors" title="click to view 1 more author" onclick="
-                var element = $(this);
-                element.attr('title', '');
-                var more_authors_text = element.text() == '1 more author' ? 'Xiaolin Huang' : '1 more author';
-                var cursorPosition = 0;
-                var textAdder = setInterval(function(){
-                  element.text(more_authors_text.substring(0, cursorPosition + 1));
-                  if (++cursorPosition == more_authors_text.length){
-                    clearInterval(textAdder);
-                  }
-              }, '10');
-              ">1 more author</span>
-</div>
+        Zhilong Xiong, Jia Cai, Ranhui Yan, and Xiaolin Huang</div>
 
         <!-- Journal/Book title and date -->
         
@@ -251,12 +312,12 @@
 
           <!-- Links/Buttons -->
           <div class="links">
-            <a href="https://doi.org/10.1109/IJCNN60899.2024.10650206" class="btn btn-sm z-depth-0" role="button" rel="external nofollow noopener" target="_blank">Website</a>
+            <a href="https://doi.org/10.1109/IJCNN60899.2024.10650206" class="btn btn-sm z-depth-0" role="button" rel="external nofollow noopener" target="_blank">DOI</a>
           </div>
           
           <div class="badges">
-            <span class="altmetric-embed" data-hide-no-mentions="true" data-hide-less-than="15" data-badge-type="2" data-badge-popover="right"></span>
-              <span class="__dimensions_badge_embed__" data-pmid="" data-hide-zero-citations="true" data-style="small_rectangle" data-legend="hover-right" style="margin-bottom: 3px;"></span>
+            <span class="altmetric-embed" data-hide-no-mentions="true" data-hide-less-than="15" data-badge-type="2" data-badge-popover="right" data-doi="10.1109/IJCNN60899.2024.10650206"></span>
+              <span class="__dimensions_badge_embed__" data-doi="10.1109/IJCNN60899.2024.10650206" data-hide-zero-citations="true" data-style="small_rectangle" data-legend="hover-right" style="margin-bottom: 3px;"></span>
           </div>
 
           
@@ -266,7 +327,23 @@
 <li>
 <!-- _layouts/bib.html -->
       <div class="row">
-        <div class="col-sm-2 abbr"></div>
+        <div class="col-sm-2 preview">
+<figure>
+
+  <picture>
+    
+    <source class="responsive-img-srcset" media="(max-width: 480px)" srcset="/assets/img/publication_preview/dense-hgcn-thumbnail-480.webp"></source>
+    <source class="responsive-img-srcset" media="(max-width: 800px)" srcset="/assets/img/publication_preview/dense-hgcn-thumbnail-800.webp"></source>
+    <source class="responsive-img-srcset" media="(max-width: 1400px)" srcset="/assets/img/publication_preview/dense-hgcn-thumbnail-1400.webp"></source>
+    
+
+    <!-- Fallback to the original file -->
+    <img src="/assets/img/publication_preview/dense-hgcn-thumbnail.png" class="preview z-depth-1 rounded" width="auto" height="auto" alt="dense-hgcn-thumbnail.png" onerror="this.onerror=null; $('.responsive-img-srcset').remove();">
+
+  </picture>
+
+</figure>
+</div>
 
         <!-- Entry bib key -->
         <div id="yan2023end" class="col-sm-8">
@@ -290,12 +367,12 @@
 
           <!-- Links/Buttons -->
           <div class="links">
-            <a href="https://doi.org/10.1007/978-981-99-8079-6_36" class="btn btn-sm z-depth-0" role="button" rel="external nofollow noopener" target="_blank">Website</a>
+            <a href="https://doi.org/10.1007/978-981-99-8079-6_36" class="btn btn-sm z-depth-0" role="button" rel="external nofollow noopener" target="_blank">DOI</a>
           </div>
           
           <div class="badges">
-            <span class="altmetric-embed" data-hide-no-mentions="true" data-hide-less-than="15" data-badge-type="2" data-badge-popover="right"></span>
-              <span class="__dimensions_badge_embed__" data-pmid="" data-hide-zero-citations="true" data-style="small_rectangle" data-legend="hover-right" style="margin-bottom: 3px;"></span>
+            <span class="altmetric-embed" data-hide-no-mentions="true" data-hide-less-than="15" data-badge-type="2" data-badge-popover="right" data-doi="10.1007/978-981-99-8079-6_36"></span>
+              <span class="__dimensions_badge_embed__" data-doi="10.1007/978-981-99-8079-6_36" data-hide-zero-citations="true" data-style="small_rectangle" data-legend="hover-right" style="margin-bottom: 3px;"></span>
           </div>
 
           
@@ -311,9 +388,8 @@
 
     </div>
 
-    <!-- Footer -->    
-    <footer class="fixed-bottom">
-      <div class="container mt-0">
+    <!-- Footer -->    <footer class="sticky-bottom mt-5">
+      <div class="container">
         © Copyright 2026 Ranhui  Yan. Powered by <a href="https://jekyllrb.com/" target="_blank" rel="external nofollow noopener">Jekyll</a> with <a href="https://github.com/alshedivat/al-folio" rel="external nofollow noopener" target="_blank">al-folio</a> theme. Hosted by <a href="https://pages.github.com/" target="_blank" rel="external nofollow noopener">GitHub Pages</a>.
 
       </div>

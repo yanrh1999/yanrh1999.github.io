@@ -10,8 +10,8 @@
   --global-code-bg-color: rgba(181, 9, 172, 0.05);
   --global-text-color: #000000;
   --global-text-color-light: #828282;
-  --global-theme-color: #B509AC;
-  --global-hover-color: #B509AC;
+  --global-theme-color: #0076df;
+  --global-hover-color: #00369f;
   --global-footer-bg-color: #1C1C1D;
   --global-footer-text-color: #e8e8e8;
   --global-footer-link-color: #ffffff;
@@ -84,7 +84,7 @@ body.sticky-bottom-footer {
 }
 
 .container {
-  max-width: 800px;
+  max-width: 900px;
 }
 
 .profile img {
@@ -208,6 +208,16 @@ blockquote {
 
 .profile.float-left {
   margin-right: 1rem;
+}
+
+.post-title {
+  letter-spacing: -0.025em;
+}
+
+.post .desc {
+  color: var(--global-text-color-light);
+  font-size: 1.1rem;
+  margin-bottom: 1.75rem;
 }
 
 @media (min-width: 576px) {
@@ -537,8 +547,13 @@ footer.sticky-bottom {
 }
 .publications ol.bibliography li .preview {
   width: 100%;
-  min-width: 80px;
-  max-width: 200px;
+  min-width: 96px;
+  max-width: 150px;
+  aspect-ratio: 1;
+  object-fit: contain;
+  padding: 0.35rem;
+  background: var(--global-card-bg-color);
+  border: 1px solid var(--global-divider-color);
 }
 .publications ol.bibliography li .abbr {
   height: 2rem;
@@ -562,6 +577,11 @@ footer.sticky-bottom {
 }
 .publications ol.bibliography li .title {
   font-weight: bolder;
+  line-height: 1.35;
+  margin-bottom: 0.15rem;
+}
+.publications ol.bibliography li .periodical {
+  color: var(--global-text-color-light);
 }
 .publications ol.bibliography li .author a {
   border-bottom: 1px dashed var(--global-theme-color);
@@ -642,6 +662,32 @@ footer.sticky-bottom {
 }
 .publications ol.bibliography li div.abstract.hidden.open {
   border-color: var(--global-text-color);
+}
+
+.publication-feed th {
+  color: var(--global-text-color-light);
+  font-weight: 500;
+  white-space: nowrap;
+}
+
+.publication-update {
+  max-width: 780px;
+  margin: 0 auto;
+}
+
+.publication-label {
+  color: var(--global-theme-color);
+  font-size: 0.8rem;
+  font-weight: 700;
+  letter-spacing: 0.12em;
+  margin-bottom: 0.4rem;
+  text-transform: uppercase;
+}
+
+.publication-return {
+  border-top: 1px solid var(--global-divider-color);
+  margin-top: 2rem;
+  padding-top: 1rem;
 }
 
 figure.highlight {
