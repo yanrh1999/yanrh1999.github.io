@@ -19,8 +19,8 @@ selected_papers: false # includes a list of papers marked as "selected={true}"
 social: true  # includes social icons at the bottom of the page
 ---
 
-I work on applied AI, with a focus on graph learning and deep learning for interdisciplinary problems.
+I am a machine learning researcher interested in graph learning, graph neural networks, and robustness.
 
-My research explores graph neural networks, especially spectral methods, heterogeneous graphs, and robustness under structural perturbations.
+My current work studies spectral graph neural networks, their theoretical properties, and their robustness under structural perturbations.
 
-I am interested in practical ideas as well as clear theoretical understanding, and welcome conversations about research, code, and collaboration.
+I am actively exploring ideas and collaborations. Please feel free to contact me about research, code, or collaboration.
