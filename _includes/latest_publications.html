@@ -1,0 +1,17 @@
+<div class="news publication-feed">
+  {% assign updates = site.publication_updates | sort: "date" | reverse %}
+  {% if updates.size > 0 %}
+    <div class="table-responsive">
+      <table class="table table-sm table-borderless">
+        {% for item in updates limit: site.latest_publications.limit %}
+          <tr>
+            <th scope="row">{{ item.date | date: "%b %-d, %Y" }}</th>
+            <td><a class="news-title" href="{{ item.url | relative_url }}">Publication: {{ item.title }}</a></td>
+          </tr>
+        {% endfor %}
+      </table>
+    </div>
+  {% else %}
+    <p>No publication updates so far.</p>
+  {% endif %}
+</div>

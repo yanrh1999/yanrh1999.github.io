@@ -2,27 +2,25 @@
 layout: about
 title: About
 permalink: /
-subtitle: <a href='mailto:yan_rh1999@outlook.com/'>yan_rh1999@outlook.com</a>.
+subtitle: Machine learning and graph learning researcher
 
 profile:
   align: right
   image: portrait.jpg
   image_circular: false # crops the image to make it circular
   address: >
-    <p>TA</p>
+    <p>Teaching Assistant</p>
     <p><span style="white-space: nowrap;">Guangzhou Xinhua University</span></p>
     <p>Guangzhou, China</p>
 
 news: false  # includes a list of news items
-latest_posts: true  # includes a list of the newest posts
+latest_publications: true
 selected_papers: false # includes a list of papers marked as "selected={true}"
 social: true  # includes social icons at the bottom of the page
 ---
 
-I am a researcher interested in machine learning and graph learning.
+I am a machine learning researcher interested in graph learning, graph neural networks, and robustness.
 
-My current work focuses on graph neural networks, including their theoretical properties and robustness.
+My current work studies spectral graph neural networks, their theoretical properties, and their robustness under structural perturbations.
 
-I am still at an early stage of my research career, but I am actively exploring ideas and collaborations.
-
-Welcome to contact me regarding research or collaboration.
+I am actively exploring ideas and collaborations. Please feel free to contact me about research, code, or collaboration.
