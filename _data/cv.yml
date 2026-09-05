@@ -39,7 +39,7 @@
       description:
         - Teach and support courses including Calculus, Linear Algebra, Statistics, and Machine Learning.
 
-- title: Selected Publications
+- title: Publications
   type: time_table
   contents:
     - title: Convex--Concave Quadratic Spectral Filtering for Graph Neural Networks
